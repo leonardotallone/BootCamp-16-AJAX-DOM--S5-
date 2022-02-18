@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="stylesheets/styles.css" />
+    <title>AJAX - DOM</title>
+  </head>
+  <body>
+    <div class="container bg-white shadow mt-5">
+      <div class="p-4">
+        <h4 class="mb-3">Setup de la base de datos</h4>
+        <span class="badge rounded-pill bg-danger px-3 py-2 text-white">High priority</span>
+      </div>
+      <div class="px-4">
+        <div class="d-flex align-items-center justify-content-between mb-3">
+          <h5 class="m-0"><i class="far fa-check-square p-1"></i>Checklist</h5>
+          <button class="clear btn btn-outline-danger shadow-none">Eliminar todos</button>
+        </div>
+        <div id="list">
+          <!-- <div class="item"> -->
+            <!-- <label class="completed">
+              <input type="checkbox" checked="true">
+              <span>Conexión del servidor a la base de datos</span>
+            </label>
+            <i class="far fa-trash-alt text-danger"></i>
+          </div>
+          <div class="item">
+            <label>
+              <input type="checkbox">
+              <span>Creación de modelos</span>
+            </label>
+            <i class="far fa-trash-alt text-danger"></i>
+          </div>
+          <div class="item">
+            <label>
+              <input type="checkbox">
+              <span>Establecer relaciones</span>
+            </label>
+            <i class="far fa-trash-alt text-danger"></i> -->
+          <!-- </div> -->
+        <!-- </div> -->
+        <form>
+          <input placeholder="Añada un elemento" type="text" name="title" class="form-control shadow-sm mt-3 p-2" required/>
+        </form>
+      </div>
+      <div class="px-4 py-3">
+        <h6 class="line-text"><span>Compartido con</span></h6>
+      </div>
+      <div class="d-flex justify-content-center pb-4">
+        <img class="rounded-circle" src="images/brendan_eich.jpeg" width="40" />
+        <img class="rounded-circle" src="images/dan_abramov.jpeg" width="40" />
+        <img class="rounded-circle" src="images/ryan_dahl.jpeg" width="40"/>
+        <img class="rounded-circle" src="images/guillermo_rauch.jpeg" width="40"/>
+      </div>
+    </div>
+    <script src="https://kit.fontawesome.com/be6f6f9a32.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script type="text/javascript" src="scripts/utils.js"></script>
+    <script type="text/javascript" src="scripts/index.js"></script>
+  </body>
+</html>
